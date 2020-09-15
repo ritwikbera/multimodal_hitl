@@ -1,0 +1,53 @@
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "Multirotor",
+  "ViewMode": "Fpv",
+  "CameraDefaults": {
+      "CaptureSettings": [
+        {
+          "ImageType": 0,
+          "Width": 352,
+          "Height": 240,
+          "FOV_Degrees": 90,
+          "AutoExposureSpeed": 100,
+          "MotionBlurAmount": 0
+        },
+        {
+          "ImageType": 5,
+          "Width": 352,
+          "Height": 240,
+          "FOV_Degrees": 90,
+          "AutoExposureSpeed": 100,
+          "MotionBlurAmount": 0
+        },
+        {
+          "ImageType": 3,
+          "Width": 352,
+          "Height": 240,
+          "FOV_Degrees": 90,
+          "AutoExposureSpeed": 100,
+          "MotionBlurAmount": 0
+        }
+    ]
+  },
+  "SubWindows": [
+    {"WindowID": 0, "CameraName": "0", "ImageType": 3, "Visible": false},
+    {"WindowID": 1, "CameraName": "0", "ImageType": 5, "Visible": false},
+    {"WindowID": 2, "CameraName": "0", "ImageType": 0, "Visible": false}
+  ],
+  "Vehicles": {
+    "SimpleFlight": {
+      "VehicleType": "SimpleFlight",
+      "DefaultVehicleState": "Armed",
+      "AutoCreate": true,
+      "PawnPath": "",
+      "EnableCollisionPassthrogh": false,
+      "EnableCollisions": true,
+      "AllowAPIAlways": true,
+      "RC": {
+        "RemoteControlID": -1,
+        "AllowAPIWhenDisconnected": false
+      }
+    }
+  }
+}

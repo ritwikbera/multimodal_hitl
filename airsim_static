@@ -1,0 +1,8 @@
+#!/bin/bash
+# go to binary folder
+cd ./binaries/KAIROS_Truck_Mountains/LinuxNoEditor
+# run binary
+#./ARL_Test_Small.sh
+#./ARL_Test_Small.sh -windowed
+./ARL_Test_Small.sh -windowed -ResX=426 -ResY=240
+#./ARL_Test_Small.sh -- headless
